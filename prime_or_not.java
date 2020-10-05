@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class prime_or_not {
     public static void main(String[]args)
 {
-    int num=7,i=2,flag=0;
+    int num,i,flag=0;
+    Scanner s = new Scanner(System.in)
+    num = s.nextInt();
     for(i=2;i<=num/2;i++)
     {
         if(num%i==0){
